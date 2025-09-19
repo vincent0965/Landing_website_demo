@@ -3,8 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Header from "./components/Header"
 import Hero from './components/Hero'
-import Header from './components/Header'
+import Features from './components/Features'
+import Products from './components/Products'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +28,9 @@ function App() {
 
       <Header />
       <Hero />
+      <Features />
+      <Products />
+      <Footer />
 
 
       <h1>Vite + React</h1>
